@@ -1,0 +1,40 @@
+{
+    "id": "soil",
+    "type": "fill",
+    "source-layer": "soil",
+    "propertyName": "value",
+    "minzoom":3,
+    "maxzoom":14,
+    "bounds":[23.451492,3.484857,36.89952,23.153038],
+    "originalDatasetCoordinate":[
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ],
+    "values":[0,10,11,12,13,14,15,16,2,3,4,5,6,7,8,9],
+    "colormap":["interpolate", ["linear"],["get", "value"], 0, "#000", 69,"#fff"],
+    "legend-type": "linear",
+    "legend": [ {"label":"0", "value":0, "color":"#000"},
+                {"label":"69", "value":69, "color":"#fff"}],
+    "defaultColor":"#000"
+
+}
